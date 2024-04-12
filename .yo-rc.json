@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "authenticationType": "jwt",
+    "baseName": "mkInsurance",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-azure-spring-apps",
+        "version": "1.0.17"
+      }
+    ],
+    "buildTool": "maven",
+    "cacheProvider": "no",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "enableHibernateCache": false,
+    "enableSwaggerCodegen": false,
+    "enableTranslation": true,
+    "entities": [],
+    "gitCompany": "",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "8.3.0",
+    "languages": ["en"],
+    "messageBroker": false,
+    "nativeLanguage": "en",
+    "packageFolder": "co/mz/insurance/mk",
+    "packageName": "co.mz.insurance.mk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "testFrameworks": [],
+    "useSass": true,
+    "websocket": false,
+    "withAdminUi": true
+  },
+  "git-company": "dinatcloud",
+  "git-provider": "GitHub",
+  "repository-name": "jhipster-sample-application"
+}
